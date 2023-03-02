@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tab_main">
+        <item>Payment</item>
+        <item>Manage</item>
+        <item>Batch</item>
+        <item>Report</item>
+        <item>FormManage</item>
+        <item>MultiCmd</item>
+        <item>Comm Setting</item>
+        <item>Log Setting</item>
+        <item>Peripheries</item>
+        <item>FullIntegration</item>
+        <item>SendCmd</item>
+        <item>For Test</item>
+    </string-array>
+
+    <string-array name="tab_payment_ext">
+        <item>Account Info.</item>
+        <item>Check Info.</item>
+        <item>Trace Info.</item>
+        <item>Cashier Info.</item>
+        <!--        <item>Commercial Info.</item>-->
+        <item>MOTO/E-Commerce Info.</item>
+        <item>Additional.#1 Info</item>
+        <item>Additional.#2 Info</item>
+        <item>Additional.#3 Info</item>
+    </string-array>
+    <!-- Used in payment -->
+    <string-array name="payment_tenders">
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>CHECK</item>
+        <item>EBT_FOODSTAMP</item>
+        <item>EBT_CASHBENEFIT</item>
+        <item>GIFT</item>
+        <item>LOYALTY</item>
+        <item>CASH</item>
+        <item>EBT</item>
+    </string-array>
+    <string-array name="payment_trans">
+        <item>UNKNOWN</item>
+        <item>AUTH</item>
+        <item>SALE</item>
+        <item>RETURN</item>
+        <item>VOID</item>
+        <item>POSTAUTH</item>
+        <item>FORCEAUTH</item>
+        <item>ADJUST</item>
+        <item>INQUIRY</item>
+        <item>ACTIVATE</item>
+        <item>DEACTIVATE</item>
+        <item>RELOAD</item>
+        <item>VOID SALE</item>
+        <item>VOID RETURN</item>
+        <item>VOID AUTH</item>
+        <item>VOID POSTAUTH</item>
+        <item>VOID FORCEAUTH</item>
+        <item>VOID WITHDRAWAL</item>
+        <item>REVERSAL</item>
+        <item>WITHDRAWAL</item>
+        <item>ISSUE</item>
+        <item>CASHOUT</item>
+        <item>REPLACE</item>
+        <item>MERGE</item>
+        <item>REPORTLOST</item>
+        <item>REDEEM</item>
+        <item>VERIFY</item>
+        <item>REACTIVATE</item>
+        <item>FORCED ISSUE</item>
+        <item>FORCED ADD</item>
+        <item>UNLOAD</item>
+        <item>RENEW</item>
+        <item>GETCONVERTDETAIL</item>
+        <item>CONVERT</item>
+        <item>TOKENIZE</item>
+        <item>INCREMENTALAUTH</item>
+        <item>BALANCEWITHLOCK</item>
+        <item>REDEMPTIONWITHUNLOCK</item>
+        <item>REWARDS</item>
+    </string-array>
+
+    <!-- used in payment ext paathru -->
+    <string-array name="payment_ext_passthru_type_prompt">
+        <item>FLEET</item>
+        <item>FSA</item>
+        <item>eWIC</item>
+        <item>LEVEL3</item>
+        <item>LODGING</item>
+
+    </string-array>
+    <!-- used in manage -->
+    <string-array name="manage_trans">
+        <item>INIT</item>
+        <item>GETVAR</item>
+        <item>SETVAR</item>
+        <item>SHOWDIALOG</item>
+        <item>GETSIGNATURE</item>
+        <item>SHOWMESSAGE</item>
+        <item>CLEARMESSAGE</item>
+        <item>RESET</item>
+        <item>UPDATERESOURCE</item>
+        <item>DOSIGNATURE</item>
+        <item>DELETEIMAGE</item>
+        <item>SHOWTHANKYOU</item>
+        <item>REBOOT</item>
+        <item>GETPINBLOCK</item>
+        <item>INPUTACCOUNT</item>
+        <item>RESETMSR</item>
+        <item>INPUTTEXT</item>
+        <item>CHECKFILE</item>
+        <item>AUTHORIZECARD</item>
+        <item>COMPLETEONLINEEMV</item>
+        <item>REMOVECARD</item>
+        <item>GETEMVTLVDATA</item>
+        <item>SETEMVTLVDATA</item>
+        <item>INPUTACCOUNTWITHEMV</item>
+        <item>SETSAFPARAMETERS</item>
+        <item>SHOWTEXTBOX</item>
+        <item>REPRINT</item>
+        <item>PRINTER</item>
+        <item>SHOWITEM</item>
+        <item>CARDINSERTDETECTION</item>
+        <item>TOKENADMINISTRATIVE</item>
+        <item>SHOWDIALOGFORM</item>
+        <item>CAMERASCAN</item>
+        <item>VASSETMERCHANTPARAMETERS</item>
+        <item>VASPUSHDATA</item>
+        <item>MIFARECARD</item>
+        <item>GETSAFPARAMETERS</item>
+        <item>SESSIONKEYINJECTION</item>
+        <item>MACCALCULATION</item>
+        <item>GETPEDINFORMATION</item>
+    </string-array>
+    <string-array name="manage_edc">
+        <item>ALL</item>
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>CHECK </item>
+        <item>EBT</item>
+        <item>GIFT</item>
+        <item>LOYALTY</item>
+        <item>CASH</item>
+    </string-array>
+    <string-array name="batch_trans">
+        <item>BATCHCLOSE</item>
+        <item>FORCEBATCHCLOSE</item>
+        <item>BATCHCLEAR</item>
+        <item>PURGEBATCH</item>
+        <item>SAFUPLOAD</item>
+        <item>DELETESAFFILE</item>
+        <item>DELETETRANSACTION</item>
+    </string-array>
+    <string-array name="batch_edc">
+        <item>ALL</item>
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>CHECK</item>
+        <!--MOD QC Bug No20 Start -->
+        <!-- <item>EBT_FOODSTAMP</item>
+        <item>EBT_CASHBENEFIT</item> -->
+        <item>EBT</item>
+        <!--MOD QC Bug No20 End -->
+        <item>GIFT</item>
+        <item>LOYALTY</item>
+        <item>CASH</item>
+    </string-array>
+    <string-array name="report_trans">
+        <item>LOCALTOTALREPORT</item>
+        <item>LOCALDETAILREPORT</item>
+        <item>LOCALFAILEDREPORT</item>
+        <item>HOSTREPORT</item>
+        <item>HISTORYREPORT</item>
+        <item>SAFSUMMARYREPORT</item>
+        <item>HOSTDETAILREPORT</item>
+    </string-array>
+    <string-array name="report_edc">
+        <item>ALL</item>
+        <item>CREDIT</item>
+        <item>DEBIT</item>
+        <item>CHECK</item>
+        <item>EBT</item>
+        <item>GIFT</item>
+        <item>LOYALTY</item>
+        <item>CASH </item>
+    </string-array>
+    <string-array name="report_card">
+        <item>UNKNOWN</item>
+        <item>VISA</item>
+        <item>MASTERCARD</item>
+        <item>AMEX</item>
+        <item>DISCOVER</item>
+        <item>DINERCLUB</item>
+        <item>ENROUTE</item>
+        <item>JCB</item>
+        <item>REVOLUTIONCARD</item>
+        <item>OTHER</item>
+    </string-array>
+    <string-array name="report_payment">
+        <item>UNKNOWN</item>
+        <item>AUTH</item>
+        <item>SALE</item>
+        <item>RETURN</item>
+        <item>VOID</item>
+        <item>POSTAUTH</item>
+        <item>FORCEAUTH</item>
+        <!-- DEL QC Bug No21 Start-->
+        <!-- <item>CAPTURE</item>
+        <item>REPEATSALE</item>
+        <item>CAPTUREALL</item> -->
+        <!-- DEL QC Bug No21 End-->
+        <item>ADJUST</item>
+        <item>INQUIRY</item>
+        <item>ACTIVATE</item>
+        <item>DEACTIVATE</item>
+        <item>RELOAD</item>
+        <item>VOID SALE</item>
+        <item>VOID RETURN</item>
+        <item>VOID AUTH</item>
+        <item>VOID POSTAUTH</item>
+        <item>VOID FORCEAUTH</item>
+        <item>VOID WITHDRAWAL</item>
+        <item>REVERSAL</item>
+        <item>WITHDRAWAL</item>
+        <item>ISSUE</item>
+        <item>CASHOUT</item>
+        <item>REPLACE</item>
+        <item>MERGE</item>
+        <item>REPORTLOST</item>
+        <item>REDEEM</item>
+        <!-- DEL QC Bug No21 Start-->
+        <!-- <item>STATUS_CHECK</item>
+        <item>SETUP</item>
+        <item>INIT</item> -->
+        <!-- DEL QC Bug No21 End-->
+        <item>VERIFY</item>
+        <item>REACTIVATE</item>
+        <item>FORCED ISSUE</item>
+        <item>FORCED ADD</item>
+        <item>UNLOAD</item>
+        <item>RENEW</item>
+    </string-array>
+
+    <string-array name="commSetting_types">
+        <item>UART</item>
+        <item>TCP</item>
+        <item>BLUETOOTH</item>
+        <item>SSL</item>
+        <item>HTTP</item>
+        <item>HTTPS</item>
+        <item>USB</item>
+        <item>AIDL</item>
+        <!--<item>USB CDC-ECM</item>-->
+    </string-array>
+
+    <string-array name="commSetting_baudRate">
+        <item>9600</item>
+        <item>115200</item>
+    </string-array>
+
+    <string-array name="mifare_card_type">
+        <item>MIFARE Classic</item>
+        <item>MIFARE Ultralight</item>
+    </string-array>
+
+    <string-array name="commSetting_host">
+        <item>UNKNOWN</item>
+        <item>FullIntegration</item>
+        <item>FullIntegration_P2PE</item>
+        <item>TransIT</item>
+        <item>Vantiv</item>
+        <item>RapidConnect</item>
+        <item>BridgeComm</item>
+        <item>BridgeComm</item>
+        <item>Tsys</item>
+    </string-array>
+
+    <string-array name="comm_setting_enable_proxy">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <string-array name="log_switch">
+        <item>ON</item>
+        <item>OFF</item>
+    </string-array>
+
+    <string-array name="log_level">
+        <item>ERROR</item>
+        <item>DEBUG</item>
+    </string-array>
+
+    <string-array name="SAF_Indicator">
+        <item>0: New</item>
+        <item>1: Failed</item>
+        <item>2: All</item>
+    </string-array>
+    <string-array name="VAS_PROGRAMS">
+        <item>Apple</item>
+        <item>Google</item>
+    </string-array>
+    <string-array name="VAS_MODE">
+        <item>VAS ONLY</item>
+        <item>VAS_AND_PAYMENT</item>
+        <item>VAS_OR_PAYMENT</item>
+        <item>PAYMENT_ONLY</item>
+    </string-array>
+
+    <string-array name="tab_multicmd">
+        <item>Payment</item>
+        <item>Manage</item>
+        <item>Batch</item>
+        <item>Report</item>
+        <item>FormManage</item>
+    </string-array>
+
+    <string-array name="tab_service_usage">
+        <item>Service Usage</item>
+        <item>Service Update</item>
+        <item>New Service</item>
+    </string-array>
+
+    <string-array name="tab_service_update">
+        <item>Service Update 0</item>
+        <item>Service Update 1</item>
+        <item>Service Update 2</item>
+    </string-array>
+
+    <string-array name="tab_new_service">
+        <item>New Service 0</item>
+        <item>New Service 1</item>
+        <item>New Service 2</item>
+    </string-array>
+
+    <!-- used in payment commercial tax detail -->
+    <string-array name="payment_commercial_tax_detail_taxType">
+        <item>Unknown</item>
+        <item>Federal/National Sales Tax</item>
+        <item>State Sales Tax</item>
+        <item>City Sales Tax</item>
+        <item>Local Sales Tax</item>
+        <item>Municipal Sales Tax</item>
+        <item>Duty Tax</item>
+        <item>Value Added Tax(VAT)</item>
+        <item>Goods and Services Tax</item>
+        <item>Provincial Sales Tax</item>
+        <item>Room Tax</item>
+        <item>Occupancy Tax</item>
+        <item>Energy Tax</item>
+
+
+    </string-array>
+</resources>

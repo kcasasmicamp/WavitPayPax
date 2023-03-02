@@ -1,5 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#45B7E9</color>
+
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="white">#ffffffff</drawable>
+    <color name="grey6">#666666</color>
+    <drawable name="black">#ff000000</drawable>
+    <color name="legacy_icon_background">#FFFFFF</color>
+
+    <color name="colorAccent">#45B7E9</color>
+    <color name="colorToolbar">#45B7E9</color>
+    <color name="colorText">#4d4d4e</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorGray">#818387</color>
+    <color name="colorDisableGray">#A0A1A3</color>
+    <color name="colorLightGray">#F2F2F2</color>
+    <color name="colorBlack">#0F0607</color>
+    <color name="colorRed">#EC1C29</color>
+    <color name="colorLightGreen">#00B373</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorBlackEffective">#2a2a2a</color>
+    <color name="colorRedBackground">#FFB3B3</color>
+
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+    <drawable name="transparent">#00000000</drawable>
+
+    <color name="solid_red">#f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="solid_black">#ff000000</color>
+    <color name="solid_white">#ffffffff</color>
+    <color name="aliceblue">#F0F8FF</color>
+    <color name="paleturquoise">#AFEEEE</color>
+    <color name="booking_textpromptcolor">#ff5e605f</color>
+    <color name="orange">#fffdc886</color>
+    <color name="function_textcolor">#ffe2e6e0</color>
+    <color name="singlefood_orange">#fffd5807</color>
+
+    <color name="trans_amount_color">#FD4800</color>
+
+    <color name="gray_btn_bg_pressed_color">#B6B6B6</color>
+    <color name="gray_btn_bg_color">#D0D0D0</color>
+
+    <color name="requestbg">#CCE8CF</color>
     <color name="purple_200">#FFBB86FC</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
