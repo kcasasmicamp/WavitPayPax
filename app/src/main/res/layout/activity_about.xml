@@ -21,7 +21,7 @@ xmlns:tools="http://schemas.android.com/tools"
 <!--
         <include
             layout="@layout/toolbar"
-            />
+             bind:viewModel="@{viewModel.mToolbar}"/>
 -->
 
         <RelativeLayout
