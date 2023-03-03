@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.ui.viewModel.layoutModel.ToolBarModel" />
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_60dp"
+        android:background="@color/colorToolbar"
+        android:paddingStart="@dimen/_10dp"
+        android:paddingEnd="@dimen/_10dp">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:onClick="@{(v) -> viewModel.clickedOnBack(v)}"
+            android:padding="@dimen/_10dp"
+            android:src="@drawable/back"
+            android:visibility="@{viewModel.isBackButtonShown ? View.VISIBLE : View.INVISIBLE}"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/new_sale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toStartOf="@+id/img_menu"
+            android:layout_toEndOf="@+id/img_back"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@{viewModel.title}"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/_sp20"
+            tools:ignore="RtlSymmetry" />
+
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{(v)->viewModel.onMenuOptionClick(v)}"
+            android:padding="@dimen/_10dp"
+            android:src="@drawable/ic_menu_icon"
+            android:visibility="@{viewModel.isMenuIconShown ? View.VISIBLE : View.INVISIBLE}"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/img_upload"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{(v)->viewModel.onUploadClick()}"
+            android:paddingLeft="@dimen/_5dp"
+            android:paddingRight="@dimen/_5dp"
+            android:src="@drawable/ic_cloud_upload_black"
+            android:visibility="@{viewModel.isUploadIconShown ? View.VISIBLE : View.INVISIBLE}"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/img_filter"
+            android:layout_width="@dimen/_40dp"
+            android:layout_height="@dimen/_40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="@{()->viewModel.onFilterClick()}"
+            android:paddingLeft="@dimen/_5dp"
+            android:paddingRight="@dimen/_5dp"
+            android:visibility="@{viewModel.isFilterIconShown ? View.VISIBLE : View.INVISIBLE}"
+            app:srcCompat="@drawable/ic_search_24"
+            tools:ignore="ContentDescription" />
+
+
+    </RelativeLayout>
+    -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>
