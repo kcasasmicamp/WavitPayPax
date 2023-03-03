@@ -5,51 +5,73 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-    <!--
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Tap to continue"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.852" />
+<!--
+    <data>
 
-        <ImageView
-            android:id="@+id/img_bravo"
-            android:layout_width="@dimen/_220dp"
-            android:layout_height="@dimen/_130dp"
-            android:src="@drawable/icon_logo_about"
-            app:layout_constraintBottom_toTopOf="@+id/textView3"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.497"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView2"
-            app:layout_constraintVertical_bias="0.264"
-            tools:ignore="ContentDescription" />
+        <variable
+            name="viewModel"
+            type="com.example.wavitpaypax.ui.viewModel.AboutViewModel" />
 
-         <TextView
-             android:id="@+id/textView"
-             android:layout_width="wrap_content"
-             android:layout_height="wrap_content"
-             android:layout_marginTop="36dp"
-             android:text="Welcome to"
-             app:layout_constraintBottom_toTopOf="@+id/textView2"
-             app:layout_constraintEnd_toEndOf="@+id/textView2"
-             app:layout_constraintStart_toStartOf="@+id/textView2"
-            app:layout_constraintTop_toTopOf="parent" />
+    </data>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--
+                <include
+                    layout="@layout/toolbar"
+                     bind:viewModel="@{viewModel.mToolbar}"/>
+        -->
 
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/_20dp">
 
-         <TextView
-            android:id="@+id/textView2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="MiCamp Solutions"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            tools:layout_editor_absoluteY="98dp" />-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/tv_ok"
+                android:gravity="center"
+                android:orientation="vertical"
+                tools:ignore="UseCompoundDrawables">
+
+                <ImageView
+                    android:id="@+id/img_bravo"
+                    android:layout_width="@dimen/_220dp"
+                    android:layout_height="@dimen/_130dp"
+                    android:src="@drawable/icon_logo_about"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_15dp"
+                    android:text="@string/app_name"
+                    android:textSize="@dimen/_sp20"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_5dp"
+                    android:textSize="@dimen/_sp20"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_ok"
+                style="@style/ButtonStylePortrait"
+                android:layout_width="@dimen/_170dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/_10dp"
+                android:background="#252121"
+                android:backgroundTint="#191616"
+                android:text="@string/ok" />
+
+        </RelativeLayout>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
