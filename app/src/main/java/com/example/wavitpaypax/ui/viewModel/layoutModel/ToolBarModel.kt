@@ -1,17 +1,20 @@
 package com.example.wavitpaypax.ui.viewModel.layoutModel
 
+import android.view.View
+import androidx.databinding.ObservableField
+
 /**
  * This class used to handle Toolbar items.
  */
 
 class ToolBarModel {
-/*
+
     val isUploadIconShown: ObservableField<Boolean> = ObservableField()
     val isFilterIconShown: ObservableField<Boolean> = ObservableField()
     var isBackButtonShown: ObservableField<Boolean> = ObservableField()
     var isMenuIconShown: ObservableField<Boolean> = ObservableField()
-    var title: ObservableField<String> = ObservableField(com.example.wavitpaypax.utils.constant.AppConstants.BLANK)
-    private var mOnToolbarClick: com.example.wavitpaypax.ui.viewModel.layoutModel.ToolBarModel.OnToolbarClickListener? =
+    var title: ObservableField<String> = ObservableField("")//com.example.wavitpaypax.utils.constant.AppConstants.BLANK
+    private var mOnToolbarClick: OnToolbarClickListener? =
         null
 
 
@@ -31,7 +34,7 @@ class ToolBarModel {
         isFilterIconShown.set(filterIconShown)
     }
 
-    fun setOnToolbarClickListener(onToolbarClick: com.example.wavitpaypax.ui.viewModel.layoutModel.ToolBarModel.OnToolbarClickListener?) {
+    fun setOnToolbarClickListener(onToolbarClick: OnToolbarClickListener?) {
         mOnToolbarClick = onToolbarClick
     }
 
@@ -79,9 +82,12 @@ class ToolBarModel {
 
     interface OnToolbarClickListener {
         fun onBack(v: View?)
+
         fun onMenuIcon(v: View?)
+
         fun onUploadIcon()
+
         fun onFilterIcon()
     }
-*/
+
 }
